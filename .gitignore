@@ -1,0 +1,25 @@
+# Ignore Maven target directory (build output)
+target/
+
+# Explicitly allow src and pom.xml files to be tracked
+!src/
+!pom.xml
+
+# Include specific Maven wrapper files (not all target files)
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+build/
